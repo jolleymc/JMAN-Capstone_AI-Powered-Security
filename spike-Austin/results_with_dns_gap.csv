@@ -1,0 +1,4 @@
+trial,seconds_to_alert,signature,passed
+1,13.49,SPIKE SYN SCAN,False
+2,13.50,SPIKE SYN SCAN,False
+3,13.55,SPIKE SYN SCAN,False

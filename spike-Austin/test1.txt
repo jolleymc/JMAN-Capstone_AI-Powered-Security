@@ -1,0 +1,16 @@
+=== Config A: default Linux bridge ===
+1000 packets transmitted, 1000 received, 0% packet loss, time 21749ms
+rtt min/avg/max/mdev = 0.038/0.087/0.661/0.041 ms
+>>> cfgA: sensor captured 0 of 2000 packets (pass = 1980+)
+=== Config B: bridge hub mode (ageing_time 0) ===
+1000 packets transmitted, 1000 received, 0% packet loss, time 21342ms
+rtt min/avg/max/mdev = 0.050/0.100/0.440/0.034 ms
+>>> cfgB: sensor captured 2000 of 2000 packets (pass = 1980+)
+=== Config C: tc port mirror to sensor ===
+1000 packets transmitted, 1000 received, 0% packet loss, time 21408ms
+rtt min/avg/max/mdev = 0.043/0.103/0.439/0.038 ms
+>>> cfgC: sensor captured 1 of 2000 packets (pass = 1980+)
+=== Config C2: tc mirror (u32) ===
+1000 packets transmitted, 1000 received, 0% packet loss, time 21356ms
+rtt min/avg/max/mdev = 0.028/0.101/0.696/0.042 ms
+>>> cfgC2: sensor captured 2000 of 2000 packets (pass = 1980+)
